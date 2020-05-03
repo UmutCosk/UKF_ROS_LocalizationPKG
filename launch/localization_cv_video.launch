@@ -1,0 +1,7 @@
+<launch>
+
+<!-- 	start VideoToRosTopic node -->
+	<node name="VideoToRosTopic" type="VideoToRosTopic" pkg="localization_with_artrack_cv" output="screen" args= "VID_20191223_233938.mp4" />
+
+</launch>
+

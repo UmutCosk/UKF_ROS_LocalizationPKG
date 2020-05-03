@@ -1,0 +1,41 @@
+image_width: 1920
+image_height: 1080
+camera_name: stereo_camera/left
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1368.938451, 0.000000, 972.368128, 0.000000, 1375.666368, 552.130450, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.075511, 0.081212, 0.001573, -0.000254, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [0.999875, -0.004923, 0.015007, 0.005107, 0.999912, -0.012209, -0.014946, 0.012284, 0.999813]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1408.094535, 0.000000, 952.410896, 0.000000, 0.000000, 1408.094535, 572.540314, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]
+
+image_width: 1920
+image_height: 1080
+camera_name: stereo_camera/right
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1378.703598, 0.000000, 991.164237, 0.000000, 1385.220618, 586.751620, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.081222, 0.096721, 0.005837, 0.000223, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [0.999889, -0.007360, 0.012922, 0.007201, 0.999898, 0.012294, -0.013011, -0.012199, 0.999841]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1408.094535, 0.000000, 952.410896, -224.774487, 0.000000, 1408.094535, 572.540314, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]
